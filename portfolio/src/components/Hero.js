@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import towhidImg from '../images/towhid.jpg';
 
 const Hero = () => {
   return (
@@ -8,16 +9,16 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-wrapper">
             <div className="hero-image">
-              <img src="https://via.placeholder.com/400x400/ffffff/667eea?text=Your+Photo" alt="John Doe" />
+              <img src={towhidImg} alt="towhid" />
               {/* Replace the src above with your own portrait image */}
             </div>
             <div className="hero-text">
               <h1 className="hero-name">
-                Hi, I'm <span className="highlight">John Doe</span>
+                Hi, I'm <br></br> <span className="highlight">S. M. Towhidul Islam</span>
               </h1>
               <h2 className="hero-title">Full Stack Developer</h2>
               <p className="hero-description">
-                I create beautiful and functional web applications with a passion for 
+                I create beautiful and functional web applications with a passion for
                 clean code and exceptional user experiences.
               </p>
               <div className="hero-buttons">
