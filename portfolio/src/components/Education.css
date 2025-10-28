@@ -1,0 +1,116 @@
+.education {
+  background: white;
+  padding: 100px 20px;
+}
+
+.education-list {
+  max-width: 900px;
+  margin: 50px auto 0;
+}
+
+.education-card {
+  display: flex;
+  gap: 30px;
+  padding: 40px;
+  background: #f8f9fa;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease;
+  border-left: 4px solid #667eea;
+}
+
+.education-card:hover {
+  transform: translateX(10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.education-icon {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.education-content {
+  flex: 1;
+}
+
+.education-degree {
+  font-size: 1.3rem;
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.education-institution {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.education-duration {
+  display: inline-block;
+  padding: 4px 12px;
+  background: white;
+  color: #999;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.education-description {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.education-achievements h5 {
+  color: #333;
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.education-achievements ul {
+  list-style: none;
+  padding: 0;
+}
+
+.education-achievements li {
+  color: #555;
+  padding: 5px 0;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.education-achievements li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .education-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .education-icon {
+    margin: 0 auto;
+  }
+
+  .education-achievements li {
+    text-align: left;
+  }
+}
+
