@@ -4,18 +4,25 @@ import './Education.css';
 const Education = () => {
   const education = [
     {
-      institution: 'University of Technology',
-      degree: 'Bachelor of Science in Computer Science',
-      duration: '2014 - 2018',
-      description: 'Specialized in Software Engineering and Data Structures. Maintained GPA of 3.8/4.0.',
-      achievements: ['Dean\'s List (3 semesters)', 'Computer Science Excellence Award', 'President of Code Club']
+      institution: 'Daffodil International University | DIU',
+      degree: 'Computer Science & Engineering',
+      duration: '2018 - 2022',
+      description: 'Specialized in Software Engineering and Data Structures.',
+      achievements: ['Selected for Bootcamp through Take-Off Programming Contest', 'Among the top 20 finalists for DIU Intra University Hackathon (2022)']
     },
     {
-      institution: 'Coding Bootcamp Academy',
-      degree: 'Full Stack Web Development Certification',
-      duration: '2018',
-      description: 'Intensive 6-month program covering modern web development technologies and best practices.',
-      achievements: ['Top 10% of cohort', 'Final project featured in showcase', 'Mentored 20+ students']
+      institution: 'Birshreshtha Munshi Abdur Rouf Public',
+      degree: 'HSC',
+      duration: '2017 - 2018',
+      description: 'Developed a strong foundation in science and mathematics with a growing interest in computer technology and logical problem-solving, which later guided my path toward software development.',
+      achievements: ['Led a small tech club initiative focused on basic programming and robotics awareness.']
+    },
+    {
+      institution: 'Birshreshtha Munshi Abdur Rouf Public',
+      degree: 'SSC',
+      duration: '2015 - 2016',
+      description: 'Built a solid academic foundation in core subjects with early exposure to computer studies and an enthusiasm for technology and innovation.',
+      achievements: ['Achieved outstanding results in Science and ICT subjects.']
     }
   ];
 

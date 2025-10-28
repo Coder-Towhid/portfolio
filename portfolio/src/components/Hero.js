@@ -16,23 +16,22 @@ const Hero = () => {
               <h1 className="hero-name">
                 Hi, I'm <br></br> <span className="highlight">S. M. Towhidul Islam</span>
               </h1>
-              <h2 className="hero-title">Full Stack Developer</h2>
+              <h2 className="hero-title">Shopify Developer</h2>
               <p className="hero-description">
-                I create beautiful and functional web applications with a passion for
-                clean code and exceptional user experiences.
+                I build high-performing, customized Shopify stores that combine elegant design with seamless functionality to deliver exceptional shopping experiences.
               </p>
               <div className="hero-buttons">
                 <a href="#portfolio" className="btn btn-primary">View My Work</a>
                 <a href="#contact" className="btn btn-secondary">Get In Touch</a>
               </div>
               <div className="hero-social">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Coder-Towhid" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/towhid-islam-70578427b/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="mailto:your.email@example.com" onClick={(e) => window.location.href = 'mailto:your.email@example.com'}>
+                <a href="mailto:islamsmtowhidul@gmail.com" onClick={(e) => window.location.href = 'mailto:islamsmtowhidul@gmail.com'}>
                   <i className="fas fa-envelope"></i>
                 </a>
               </div>

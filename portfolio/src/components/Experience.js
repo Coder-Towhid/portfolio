@@ -4,24 +4,24 @@ import './Experience.css';
 const Experience = () => {
   const experiences = [
     {
-      company: 'Tech Solutions Inc.',
-      position: 'Senior Full Stack Developer',
-      duration: '2021 - Present',
-      description: 'Led development of scalable web applications, managed a team of 5 developers, and improved application performance by 40%.',
-      technologies: ['React', 'Node.js', 'PostgreSQL', 'AWS', 'Docker']
+      company: 'SEOPage1',
+      position: 'Shopify Developer',
+      duration: 'Jul 2025 - Present',
+      description: 'Delivered high-quality Shopify projects ahead of deadlines by building and customizing themes from scratch, providing end-to-end support, and implementing tailored solutions aligned with business goals and branding.',
+      technologies: ['Liquid', 'Remix', 'JavaScript', 'GraphQL', 'prisma', 'AJAX',]
     },
     {
-      company: 'Digital Innovations Ltd.',
-      position: 'Full Stack Developer',
-      duration: '2019 - 2021',
-      description: 'Developed and maintained RESTful APIs, implemented responsive user interfaces, and collaborated with cross-functional teams.',
-      technologies: ['JavaScript', 'Node.js', 'MongoDB', 'Express']
+      company: 'WebSense',
+      position: 'Shopify Developer',
+      duration: 'Jan 2025 - Jun 2025',
+      description: 'I develop and customize pixel-perfect Shopify themes, implement custom functionalities, and deliver end-to-end Shopify solutions — including app development — to create high-performing, brand-aligned online stores.',
+      technologies: ['Liquid', 'Remix', 'JavaScript', 'GraphQL', 'prisma']
     },
     {
-      company: 'StartUpHub',
-      position: 'Junior Web Developer',
-      duration: '2018 - 2019',
-      description: 'Built responsive web applications, worked with frontend frameworks, and contributed to codebase improvements.',
+      company: 'HSBLCO Solution LLC',
+      position: 'Software Engineer (Intern)',
+      duration: 'Jul 2022 - Dec 2022',
+      description: 'Successfully delivered projects ahead of deadlines, showcasing efficiency and a commitment to timely project delivery.',
       technologies: ['HTML', 'CSS', 'JavaScript', 'React']
     }
   ];

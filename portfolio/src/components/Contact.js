@@ -17,7 +17,7 @@ const Contact = () => {
               </div>
               <div className="contact-details">
                 <h3>Email</h3>
-                <p>john.doe@example.com</p>
+                <p>islamsmtowhidul@gmail.com</p>
               </div>
             </div>
             <div className="contact-item">
@@ -26,7 +26,7 @@ const Contact = () => {
               </div>
               <div className="contact-details">
                 <h3>Phone</h3>
-                <p>+1 (555) 123-4567</p>
+                <p>+8801757934547</p>
               </div>
             </div>
             <div className="contact-item">
@@ -35,23 +35,17 @@ const Contact = () => {
               </div>
               <div className="contact-details">
                 <h3>Location</h3>
-                <p>New York, NY, USA</p>
+                <p>Dhaka, Bangladesh</p>
               </div>
             </div>
             <div className="contact-social">
               <h3>Connect With Me</h3>
               <div className="social-links">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Coder-Towhid" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/towhid-islam-70578427b/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-                  <i className="fab fa-instagram"></i>
                 </a>
               </div>
             </div>
@@ -76,7 +70,7 @@ const Contact = () => {
         </div>
       </div>
       <footer className="footer">
-        <p>&copy; 2024 John Doe. All rights reserved.</p>
+        <p>&copy; 2025 S. M. Towhidul Islam. All rights reserved.</p>
       </footer>
     </section>
   );
